@@ -1,8 +1,87 @@
-* {
-    font-family: roboto;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    font-family: 'IBM Plex Sans';
+}
+h1{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: oblique;
+    font-size: x-large;
+    margin-bottom: 0px;
+}
+h2{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: large;
+    margin-bottom: 0px;
 }
 
-a , contact {
-    font-style: italic;
-    color: darkslategray;
+a.header{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: large;
+    margin-right: 10px;
+    color: goldenrod;
+}
+
+a{
+
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    color: goldenrod;
+}
+
+
+.headerbar{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 0px;
+    width: 45%;
+    margin-inline: auto;
+}
+.headercolumn{
+    margin-right: 15px;
+}
+
+.body-content{
+    width: 42%;
+    margin-inline: auto;
+    justify-content: left;
+
+}
+h3{
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+
+golden{
+
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    color: goldenrod;
+
+}
+
+li.important {
+    width: fit-content;
+    color: goldenrod;
+}
+ul{
+    width: fit-content;
+}
+
+
+hr{
+    height: 2px;
+    background-color: black;
+    width: 45%;
 }
